@@ -15,7 +15,7 @@
     .Table_20_Contents { font-size:12pt; font-family:Liberation Serif; writing-mode:horizontal-tb; direction:ltr;}
     .Tabla1 { width:25%; margin-left:0cm; margin-right:auto;}
     .Tabla1_A1 { padding:0cm; border-style:none; writing-mode:horizontal-tb; direction:ltr;}
-    .Tabla1_A { width:3.995cm; }
-    .Tabla1_B { width:13.018cm; }
+    .Tabla1_A { width:100%; }
+    .Tabla1_B { width:100%; }
     /* ODF styles with no properties representable as CSS */
     .Tabla1.1 .Tabla1.2 .Tabla1.3  { }
