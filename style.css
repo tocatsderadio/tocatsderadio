@@ -8,7 +8,7 @@ html
 body
 { width: 100%;
   font: normal 100% 'trebuchet ms', arial, sans-serif;
-  background: #000;
+  background: #FFF;
   color: #555;}
 
 p
@@ -27,7 +27,7 @@ h1, h2, h3
 { font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
-  color: #FFF;}
+  color: #000;}
 
 h2
 { font-size: 160%;
