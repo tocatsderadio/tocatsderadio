@@ -1,19 +1,21 @@
 {
-"name": "Tocats de ràdio",
+  "name": "Tocats de ràdio",
   "short_name": "tocatsderadio",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#000",
   "description": "El programa de ràdio del club social Mosaic de Manresa",
-  "icons": [{
+  "icons": 
+  [
+   {
     "src": "favicon.png",
     "sizes": "64x64",
     "type": "image/png"
-  },{
+   } , 
+  {
     "src": "favicon512.png",
     "sizes": "512x512",
     "type": "image/png"
-  }
- ] 
+  } ] 
 }
