@@ -8,9 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-   <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="manifest.json">
 
 <script type="text/javascript">
+  if (!navigator.serviceWorker.controller) {
+     navigator.serviceWorker.register("/sw.js").then(function(reg) {
+         console.log("Service worker has been registered for scope: " + reg.scope);
+     });
+ }
 function quisombutton() {
   document.getElementById("cos").innerHTML = "Som un grup de gent que anem al club social Mosaic de Manresa on gravem aquest programa de ràdio els dimecres a la tarda.";
 }
