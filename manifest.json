@@ -4,6 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
+  "theme_color": "#000",
   "description": "El programa de ràdio del club social Mosaic de Manresa",
   "icons": [{
     "src": "favicon.png",
