@@ -1,0 +1,12 @@
+"name": "tocatsderadio",
+  "short_name": "Tocats de ràdio",
+  "start_url": "tocatsderadio.github.io/tocatsderadio",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "El programa de ràdio del club social Mosaic de Manresa",
+  "icons": [{
+    "src": "favicon.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }]
+}
