@@ -24,7 +24,7 @@
         */
 // serviceworker.js
 const cacheName = "PWAv1";
-const filesToCache = ['index.html' , 'favicon.png' , 'banner.png' , 'sw.js' , 'manifest.json' , 'bootstrap.min.css'];
+const filesToCache = ['index.html' , 'favicon.png' , 'banner320.png' , 'sw.js' , 'manifest.json' , 'bootstrap.min.css'];
 
 self.addEventListener("install", function(event) {
   // Perform install steps
